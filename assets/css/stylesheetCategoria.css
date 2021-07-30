@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Etiquetas */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+
+/* Id's */
+
+
+/* Pueden cambiar el background-image por lo que necesiten*/
+
+#subcategoria1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/inicioJapon.jpg);
+}
+
+#subcategoria2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/inicioJapon.jpg);
+}
+
+#subcategoria3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/inicioJapon.jpg);
+}
+
+#subcategoria4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/inicioJapon.jpg);
+}
+
+#titleCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Clases */
+
+.containerCategoria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-image: url(../img/backgroundTurismo.jpg);
+    height: 50vh;
+}
+
+.containerSub {
+    display: grid;
+    /* Agregar o quitar 1fr por cada Subcategoria*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 30vh;
+}
+
+.containerNav {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 20vh;
+}
+
+.logo {
+    width: 55%;
+    height: auto;
+}
+
+.icon {
+    width: 70%;
+    height: auto;
+}
+
+.btnCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
