@@ -152,6 +152,61 @@
 }
 
 
+/* Categoria Eventos */
+ul, ol{
+    list-style: none;
+}
+
+.captions{
+    font-family: consolas;
+}
+
+.slideshowEv {
+    width: 100%;
+    position: relative;
+}
+
+.sliderEv ul li{
+    width: 100%;
+}
+
+.sliderEv li img {
+    width: 100%;
+    height: 800px;
+}
+
+.sliderEv .captions {
+    position: absolute;
+    width: 100%;       
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.pagination {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li {
+    font-size: 20px;
+    margin: 2px 5px;
+    color: rgb(136, 136, 136);
+    cursor: pointer;
+}
+
+
+
 /* Animaciones */
 
 @keyframes backgroundAnimation {
