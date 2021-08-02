@@ -55,11 +55,13 @@ nav {
 
 /* Clases */
 
-.containerCategoria {
+.containerCategoria-eventos {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     height: 50vh;
+    background-image: url(/assets/img/Imagenes-Eventos/1.jpg);
+    color: white;
 }
 
 .containerSub {
