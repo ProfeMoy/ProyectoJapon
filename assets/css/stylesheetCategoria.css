@@ -16,35 +16,22 @@ nav {
 
 /* Id's */
 
-
-/* Pueden cambiar el background-image por lo que necesiten*/
-
 #subcategoria1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/inicioJapon.jpg);
 }
 
 #subcategoria2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/inicioJapon.jpg);
 }
 
 #subcategoria3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/inicioJapon.jpg);
-}
-
-#subcategoria4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(../img/inicioJapon.jpg);
 }
 
 #titleCategoria {
@@ -66,16 +53,17 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    background-image: url(../img/backgroundTurismo.jpg);
     height: 50vh;
 }
 
 .containerSub {
-    display: grid;
-    /* Agregar o quitar 1fr por cada Subcategoria*/
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    display: flex;
+    flex-direction: row;
     height: 30vh;
+}
+
+.containerSub div {
+    width: 100%;
 }
 
 .containerNav {
@@ -99,4 +87,35 @@ nav {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+
+/* Agregar aquí sus clases con sus respectivos backgrounds, luego añadir al HTML en los DIV */
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+
+
+/* Categorías */
+
+.urbanizacion {
+    background-image: url(../img/backgroundUrbanizacion.jpg);
+}
+
+
+/* Subcategorías */
+
+.ciudades-japonesas {
+    background-image: url(../img/urbanizacion/Tokio.jpg);
+}
+
+.distribucion-urbana {
+    background-image: url(../img/urbanizacion/demografia.jpg);
+}
+
+.machizukuri {
+    background-image: url(../img/urbanizacion/machi.png)
 }
