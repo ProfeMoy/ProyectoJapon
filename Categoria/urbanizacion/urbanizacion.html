@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urbanización</title>
+    <title>Categoría</title>
     <link rel="stylesheet" href="../../assets/css/stylesheetCategoria.css">
 </head>
 
@@ -20,53 +20,49 @@
                 <div id="emptyDiv">
 
                 </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/historia.png" alt="Historia" class="icon">
-                    <h3>Historia</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/cultura.png" alt="cultura" class="icon">
-                    <h3>Cultura</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/turismo.png" alt="turismo" class="icon">
-                    <h3>Turismo</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/gastronomia.png" alt="Gastronomia" class="icon">
-                    <h3>Gastronomía</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/festividades.png" alt="festividades" class="icon">
-                    <h3>Festividades</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/eventos.png" alt="Eventos" class="icon">
-                    <h3>Eventos</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/urbanizacion.png" alt="Urbanizacion" class="icon">
-                    <h3>Urbanizacion</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/aportes.png" alt="aportes" class="icon">
-                    <h3>Aportes</h3>
-                </div>
-                <div class="btnCategoria">
-                    <img src="../../assets/img/navbar/viajes.png" alt="Viajes" class="icon">
-                    <h3>Viajes</h3>
+                <div id="iconos">
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/historia.png" alt="Historia" class="icon" id="iconHistoria">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/cultura.png" alt="cultura" class="icon" id="iconCultura">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/turismo.png" alt="turismo" class="icon" id="iconTurismo">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/gastronomia.png" alt="Gastronomia" class="icon" id="iconGastronomia">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/festividades.png" alt="festividades" class="icon" id="iconFestividades">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/eventos.png" alt="Eventos" class="icon" id="iconEventos">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/urbanizacion.png" alt="Urbanizacion" class="icon" id="iconUrbanizacion">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/aportes.png" alt="aportes" class="icon" id="iconAportes">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/viajes.png" alt="Viajes" class="icon" id="iconViajes">
+                    </div>
                 </div>
             </div>
         </nav>
     </header>
-
+    ../
     <main>
-        <div class="containerCategoria">
-            <div id="titleCategoria" class="background urbanizacion">
-                <h1>Urbanización</h1>
+        <div class="containerCategoria background urbanizacion" id="divCategoria">
+            <div id="titleCategoria">
+                <h1 id="h1Categoria" class="title">Urbanización</h1>
+            </div>
+            <div id="flecha">
+                <a href="#sub"><i class="fas fa-arrow-circle-down"></i></a>
             </div>
         </div>
-        <div class="containerSub">
+        <div class="containerSub" id="sub">
             <div id="subcategoria1" class="background ciudades-japonesas">
                 <h2>Ciudades japonesas</h2>
             </div>
@@ -79,6 +75,10 @@
         </div>
     </main>
 
+
+    <script src="https://kit.fontawesome.com/bd4bac141d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="../../assets/JS/icons.js"></script>
 </body>
 
 </html>
