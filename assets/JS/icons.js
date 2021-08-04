@@ -17,7 +17,7 @@ $("#iconHistoria").mouseout(() => {
     returnToOriginal();
 });
 $("#iconHistoria").click(() => {
-    window.location.href = "../Categoria/historia/historia.html";
+    window.location.href = "../historia/historia.html";
 });
 
 
@@ -30,7 +30,7 @@ $("#iconCultura").mouseout(() => {
     returnToOriginal();
 });
 $("#iconCultura").click(() => {
-    window.location.href = "../Categoria/cultura/cultura.html";
+    window.location.href = "../cultura/cultura.html";
 });
 
 /* --- Turismo --- */
@@ -42,7 +42,7 @@ $("#iconTurismo").mouseout(() => {
     returnToOriginal();
 });
 $("#iconTurismo").click(() => {
-    window.location.href = "../Categoria/turismo/turismo.html";
+    window.location.href = "../turismo/turismo.html";
 });
 
 /* --- Gastronomía --- */
@@ -54,7 +54,7 @@ $("#iconGastronomia").mouseout(() => {
     returnToOriginal();
 });
 $("#iconGastronomia").click(() => {
-    window.location.href = "../Categoria/gastronomia/gastronomia.html";
+    window.location.href = "../gastronomia/gastronomia.html";
 });
 
 /* --- Festividades --- */
@@ -66,7 +66,7 @@ $("#iconFestividades").mouseout(() => {
     returnToOriginal();
 });
 $("#iconFestividades").click(() => {
-    window.location.href = "../Categoria/festividades/festividades.html";
+    window.location.href = "../festividades/festividades.html";
 });
 
 /* --- Eventos --- */
@@ -78,7 +78,7 @@ $("#iconEventos").mouseout(() => {
     returnToOriginal();
 });
 $("#iconEventos").click(() => {
-    window.location.href = "../Categoria/eventos/eventos.html";
+    window.location.href = "../eventos/eventos.html";
 });
 
 /* --- Urbanización --- */
@@ -90,7 +90,7 @@ $("#iconUrbanizacion").mouseout(() => {
     returnToOriginal();
 });
 $("#iconUrbanizacion").click(() => {
-    window.location.href = "../Categoria/urbanizacion/urbanizacion.html";
+    window.location.href = "../urbanizacion/urbanizacion.html";
 });
 
 /* --- Aportes --- */
@@ -102,7 +102,7 @@ $("#iconAportes").mouseout(() => {
     returnToOriginal();
 });
 $("#iconAportes").click(() => {
-    window.location.href = "../Categoria/aportes/aportes.html";
+    window.location.href = "../aportes/aportes.html";
 });
 
 /* --- Viajes --- */
@@ -114,7 +114,7 @@ $("#iconViajes").mouseout(() => {
     returnToOriginal();
 });
 $("#iconViajes").click(() => {
-    window.location.href = "../Categoria/viajes/viajes.html";
+    window.location.href = "../viajes/viajes.html";
 });
 
 
