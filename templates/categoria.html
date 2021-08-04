@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 
+<!--Agregar un ../ a cada ruta para acceder a los assets-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,10 +13,13 @@
 
 <body>
 
+    <!--Agregar este visor-->
     <div id="subViewer">
         <button id="closeSubViewer">Cerrar</button>
         <iframe name="subFrame" frameborder="0" width="100%" height="100%"></iframe>
     </div>
+    <!--hasta aquí llega el visor-->
+
 
     <header>
         <nav>
@@ -59,6 +64,7 @@
     </header>
 
     <main>
+        <!--En lugar de clase prueba, escribir su clase de background, esas clases están definidas en stylesheetCategoria.css-->
         <div class="containerCategoria background prueba" id="divCategoria">
             <div id="titleCategoria">
                 <h1 id="h1Categoria" class="title">Categoría</h1>
@@ -68,6 +74,10 @@
             </div>
         </div>
         <div class="containerSub" id="sub">
+
+            <!--Meter los <h2> dentro de un <a> por cada subcategoría-->
+            <!--Poner el href con el documento html de la subcategoría y dejar target="subFrame"-->
+
             <div id="subcategoria1">
                 <a class="subCat" href="subcategoria.html" target="subFrame">
                     <h2>Sub 1</h2>
