@@ -11,6 +11,11 @@
 
 <body>
 
+    <div id="subViewer">
+        <button id="closeSubViewer">Cerrar</button>
+        <iframe name="subFrame" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+
     <header>
         <nav>
             <div class="containerNav">
@@ -64,24 +69,32 @@
         </div>
         <div class="containerSub" id="sub">
             <div id="subcategoria1">
-                <h2>Sub 1</h2>
+                <a class="subCat" href="subcategoria.html" target="subFrame">
+                    <h2>Sub 1</h2>
+                </a>
             </div>
             <div id="subcategoria2">
-                <h2>Sub 2</h2>
+                <a class="subCat" href="subcategoria.html" target="subFrame">
+                    <h2>Sub 2</h2>
+                </a>
             </div>
             <div id="subcategoria3">
-                <h2>Sub 3</h2>
+                <a class="subCat" href="subcategoria.html" target="subFrame">
+                    <h2>Sub 3</h2>
+                </a>
             </div>
             <div id="subcategoria4">
-                <h2>Sub 4</h2>
+                <a class="subCat" href="subcategoria.html" target="subFrame">
+                    <h2>Sub 4</h2>
+                </a>
             </div>
         </div>
     </main>
 
-
     <script src="https://kit.fontawesome.com/bd4bac141d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
     <script src="../assets/JS/icons.js"></script>
+    <script src="../assets/JS/app.js"></script>
 </body>
 
 </html>
