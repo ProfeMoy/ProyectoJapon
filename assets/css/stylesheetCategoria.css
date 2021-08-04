@@ -7,10 +7,22 @@
 
 /* Etiquetas */
 
+html {
+    scroll-behavior: smooth;
+}
+
 nav {
     display: flex;
     flex-direction: row;
-    height: 20vh;
+    height: auto;
+    padding: 10px 0px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
 }
 
 
@@ -48,8 +60,30 @@ nav {
 
 #logo {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+#flecha {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#flecha i {
+    font-size: 5rem;
+    color: white;
+}
+
+#flecha i:hover {
+    color: rgba(255, 255, 255, 0.644);
+}
+
+#iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 
@@ -59,13 +93,14 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    height: 50vh;
+    height: 100vh;
 }
 
 .containerSub {
     display: flex;
     flex-direction: row;
-    height: 30vh;
+    height: 25vh;
+    background-color: firebrick;
 }
 
 .containerSub div {
@@ -74,17 +109,17 @@ nav {
 
 .containerNav {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    height: 20vh;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: auto;
 }
 
 .logo {
-    width: 55%;
+    width: 5rem;
     height: auto;
 }
 
 .icon {
-    width: 70%;
+    width: 5rem;
     height: auto;
 }
 
@@ -95,19 +130,60 @@ nav {
     flex-direction: column;
 }
 
+.title {
+    font-size: 5rem;
+}
+
 
 /* Agregar aquí sus clases con sus respectivos backgrounds, luego añadir al HTML en los DIV */
 
 .background {
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 
 /* Categorías */
 
+.prueba {
+    background-color: coral;
+}
+
+.historia {
+    background-image: url(../img/backgroundHistoria.jpg);
+}
+
+.cultura {
+    background-image: url(../img/backgroundCultura.jpg);
+}
+
+.turismo {
+    background-image: url(../img/backgroundTurismo.jpg);
+}
+
+.gastronomia {
+    background-image: url(../img/backgroundGastronomia.jpg);
+}
+
+.festividades {
+    background-image: url(../img/backgroundFestividades.jpg);
+}
+
+.eventos {
+    background-image: url(../img/backgroundEventos.jpg);
+}
+
 .urbanizacion {
     background-image: url(../img/backgroundUrbanizacion.jpg);
+}
+
+.aportes {
+    background-image: url(../img/backgroundAportes.jpg);
+}
+
+.viajes {
+    background-image: url(../img/backgroundViajes.jpg);
 }
 
 
