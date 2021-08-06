@@ -212,18 +212,3 @@ body {
 .viajes {
     background-image: url(../img/backgroundViajes.jpg);
 }
-
-
-/* Subcategorías */
-
-.ciudades-japonesas {
-    background-image: url(../img/urbanizacion/Tokio.jpg);
-}
-
-.distribucion-urbana {
-    background-image: url(../img/urbanizacion/demografia.jpg);
-}
-
-.machizukuri {
-    background-image: url(../img/urbanizacion/machi.png)
-}
