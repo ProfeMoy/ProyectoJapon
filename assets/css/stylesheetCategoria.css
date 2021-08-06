@@ -198,7 +198,7 @@ body {
 }
 
 .eventos {
-    background-image: url(../img/backgroundEventos.jpg);
+    background-image: url(../img/Imagenes-Eventos/Background-eventos.jpg);
 }
 
 .urbanizacion {
@@ -229,4 +229,18 @@ body {
 
 .machizukuri {
     background-image: url(../img/urbanizacion/machi.png);
+}
+
+/* Eventos */
+
+.calendario {
+    background-image: url(../img/Imagenes-Eventos/Background-calendario.jpg);
+}
+
+.ciudadesEventos {
+    background-image: url(../img/Imagenes-Eventos/Background-ciudades.jpg);
+}
+
+.EvEmblematicos {
+    background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
 }
