@@ -11,6 +11,11 @@
 
 <body>
 
+    <div id="subViewer">
+        <button id="closeSubViewer">Cerrar</button>
+        <iframe name="subFrame" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+
     <header>
         <nav>
             <div class="containerNav">
@@ -64,13 +69,19 @@
         </div>
         <div class="containerSub" id="sub">
             <div id="subcategoria1" class="background ciudades-japonesas">
-                <h2>Ciudades japonesas</h2>
+                <a class="subCat" href="subcategoria/ciudadesJaponesas.html" target="subFrame">
+                    <h2>Ciudades japonesas</h2>
+                </a>
             </div>
             <div id="subcategoria2" class="background distribucion-urbana">
-                <h2>Distribución Urbana</h2>
+                <a class="subCat" href="subcategoria/distribucionUrbana.html" target="subFrame">
+                    <h2>Distribución Urbana</h2>
+                </a>
             </div>
             <div id="subcategoria3" class="background machizukuri">
-                <h2>Machizukuri</h2>
+                <a class="subCat" href="subcategoria/machizukuri.html" target="subFrame">
+                    <h2>Machizukuri</h2>
+                </a>
             </div>
         </div>
     </main>
@@ -79,6 +90,7 @@
     <script src="https://kit.fontawesome.com/bd4bac141d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
     <script src="../../assets/JS/icons.js"></script>
+    <script src="../../assets/JS/app.js"></script>
 </body>
 
 </html>
