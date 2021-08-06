@@ -128,7 +128,6 @@ body {
     display: flex;
     flex-direction: row;
     height: 25vh;
-    background-color: firebrick;
 }
 
 .containerSub div {
@@ -212,11 +211,4 @@ body {
 
 .viajes {
     background-image: url(../img/backgroundViajes.jpg);
-}
-
-
-/* Subcategorías */
-
-.ciudades-japonesas {
-    background-image: url(../img/urbanizacion/Tokio.jpg);
 }
