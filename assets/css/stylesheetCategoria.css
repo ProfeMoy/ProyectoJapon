@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Etiquetas */
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: 10px 0px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Id's */
+
+#subcategoria1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subcategoria2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subcategoria3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subcategoria4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titleCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10px;
+}
+
+#flecha {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#flecha i {
+    font-size: 5rem;
+    color: white;
+}
+
+#flecha i:hover {
+    color: rgba(255, 255, 255, 0.644);
+}
+
+#iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#subViewer {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.85);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+#subViewer iframe {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#closeSubViewer {
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    float: right;
+}
+
+
+/* Clases */
+
+.containerCategoria {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    height: 100vh;
+}
+
+.containerSub {
+    display: flex;
+    flex-direction: row;
+    height: 25vh;
+}
+
+.containerSub div {
+    width: 100%;
+}
+
+.containerNav {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    height: auto;
+}
+
+.logo {
+    width: 5rem;
+    height: auto;
+}
+
+.icon {
+    width: 5rem;
+    height: auto;
+}
+
+.btnCategoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 5rem;
+}
+
+
+/* Agregar aquí sus clases con sus respectivos backgrounds, luego añadir al HTML en los DIV */
+
+.background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Categorías */
+
+.prueba {
+    background-color: coral;
+}
+
+.historia {
+    background-image: url(../img/backgroundHistoria.jpg);
+}
+
+.cultura {
+    background-image: url(../img/backgroundCultura.jpg);
+}
+
+.turismo {
+    background-image: url(../img/backgroundTurismo.jpg);
+}
+
+.gastronomia {
+    background-image: url(../img/backgroundGastronomia.jpg);
+}
+
+.festividades {
+    background-image: url(../img/backgroundFestividades.jpg);
+}
+
+.eventos {
+    background-image: url(../img/backgroundEventos.jpg);
+}
+
+.urbanizacion {
+    background-image: url(../img/backgroundUrbanizacion.jpg);
+}
+
+.aportes {
+    background-image: url(../img/backgroundAportes.jpg);
+}
+
+.viajes {
+    background-image: url(../img/backgroundViajes.jpg);
+}
