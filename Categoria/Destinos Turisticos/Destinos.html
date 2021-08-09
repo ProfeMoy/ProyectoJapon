@@ -1,12 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Destinos Turisticos</title>
+    <link rel="stylesheet" href="../../assets/css/stylesheetCategoria.css">
 </head>
+
 <body>
-    
+
+    <div id="subViewer">
+        <button id="closeSubViewer">Cerrar</button>
+        <iframe name="subFrame" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+
+    <header>
+        <nav>
+            <div class="containerNav">
+                <div id="logo">
+                    <img src="../../assets/img/navbar/logoJapon.png" alt="Logo" class="logo">
+                </div>
+                <div id="emptyDiv">
+
+                </div>
+                <div id="iconos">
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/historia.png" alt="Historia" class="icon" id="iconHistoria">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/cultura.png" alt="cultura" class="icon" id="iconCultura">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/destinos.png" alt="destinos" class="icon" id="iconDestinos">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/turismo.png" alt="turismo" class="icon" id="iconTurismo">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/gastronomia.png" alt="Gastronomia" class="icon" id="iconGastronomia">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/festividades.png" alt="festividades" class="icon" id="iconFestividades">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/eventos.png" alt="Eventos" class="icon" id="iconEventos">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/urbanizacion.png" alt="Urbanizacion" class="icon" id="iconUrbanizacion">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/aportes.png" alt="aportes" class="icon" id="iconAportes">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="../../assets/img/navbar/viajes.png" alt="Viajes" class="icon" id="iconViajes">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    ../
+    <main>
+        <div class="containerCategoria background destinos-turisticos" id="divCategoria">
+            <div id="titleCategoria">
+                <h1 id="h1Categoria" class="title">Destinos Turisticos</h1>
+            </div>
+            <div id="flecha">
+                <a href="#sub"><i class="fas fa-arrow-circle-down"></i></a>
+            </div>
+        </div>
+        <div class="containerSub" id="sub">
+            <div id="subcategoria1" class="background aldeas">
+                <a class="subCat" href="Subcategorias/Aldeas.html" target="subFrame">
+                    <h2>Aldeas</h2>
+                </a>
+            </div>
+            <div id="subcategoria2" class="background entorno-natural">
+                <a class="subCat" href="Subcategorias/Entorno Natural.html" target="subFrame">
+                    <h2>Entorno Natural</h2>
+                </a>
+            </div>
+            <div id="subcategoria3" class="background santuarios">
+                <a class="subCat" href="Subcategorias/Santuarios.html" target="subFrame">
+                    <h2>Santuarios</h2>
+                </a>
+            </div>
+            <div id="subcategoria4" class="background ciudades">
+                <a class="subCat" href="Subcategorias/Ciudades.html" target="subFrame">
+                    <h2>Ciudades</h2>
+                </a>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://kit.fontawesome.com/bd4bac141d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="../../assets/JS/icons.js"></script>
+    <script src="../../assets/JS/app.js"></script>
 </body>
+
 </html>

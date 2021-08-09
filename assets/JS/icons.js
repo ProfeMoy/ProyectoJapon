@@ -20,6 +20,17 @@ $("#iconHistoria").click(() => {
     window.location.href = "../historia/historia.html";
 });
 
+/* --- Destinos Turisticos --- */
+
+$("#iconDestinos").mouseover(() => {
+    changeToCategory("Destinos Turisticos", "destinos-turisticos");
+});
+$("#iconDestinos").mouseout(() => {
+    returnToOriginal();
+});
+$("#iconDestinos").click(() => {
+    window.location.href = "../Destinos Turisticos/Destinos.html";
+});
 
 /* --- Cultura --- */
 
@@ -177,6 +188,10 @@ function background(title) {
         case "Viajes":
             {
                 return "viajes";
+            }
+        case "Destinos Turisticos":
+            {
+                return "destinos-turisticos";
             }
 
     }
