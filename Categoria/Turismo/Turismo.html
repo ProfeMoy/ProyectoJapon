@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<!--Agregar un ../ a cada ruta para acceder a los assets-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categoría</title>
+    <link rel="stylesheet" href="assets/stylesheetCategoria.css">
+</head>
+
+<body>
+
+    <!--Agregar este visor-->
+    <div id="subViewer">
+        <button id="closeSubViewer">Cerrar</button>
+        <iframe name="subFrame" frameborder="0" width="100%" height="100%"></iframe>
+    </div>
+    <!--hasta aquí llega el visor-->
+
+
+    <header>
+        <nav>
+            <div class="containerNav">
+                <div id="logo">
+                    <img src="assets/img/navbar/logoJapon.png" alt="Logo" class="logo">
+                </div>
+                <div id="emptyDiv">
+
+                </div>
+                <div id="iconos">
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/historia.png" alt="Historia" class="icon" id="iconHistoria">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/cultura.png" alt="cultura" class="icon" id="iconCultura">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/turismo.png" alt="turismo" class="icon" id="iconTurismo">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/gastronomia.png" alt="Gastronomia" class="icon" id="iconGastronomia">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/festividades.png" alt="festividades" class="icon" id="iconFestividades">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/eventos.png" alt="Eventos" class="icon" id="iconEventos">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/urbanizacion.png" alt="Urbanizacion" class="icon" id="iconUrbanizacion">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/aportes.png" alt="aportes" class="icon" id="iconAportes">
+                    </div>
+                    <div class="btnCategoria">
+                        <img src="assets/img/navbar/viajes.png" alt="Viajes" class="icon" id="iconViajes">
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--En lugar de clase prueba, escribir su clase de background, esas clases están definidas en stylesheetCategoria.css-->
+        <div class="containerCategoria background turismo" id="divCategoria">
+            <div id="titleCategoria">
+                <h1 id="h1Categoria" class="title">Turismo</h1>
+            </div>
+            <div id="flecha">
+                <a href="#sub"><i class="fas fa-arrow-circle-down"></i></a>
+            </div>
+        </div>
+        <div class="containerSub" id="sub">
+
+            <!--Meter los <h2> dentro de un <a> por cada subcategoría-->
+            <!--Poner el href con el documento html de la subcategoría y dejar target="subFrame"-->
+
+            <div id="subcategoria1" class="hoteles">
+                <a class="subCat" href="subcategoria/Hoteles.html" target="subFrame">
+                    <h2>Hoteles</h2>
+                </a>
+            </div>
+            <div id="subcategoria2" class="rentaAutos">
+                <a class="subCat" href="subcategoria/Rentadeautos.html" target="subFrame">
+                    <h2>Renta de autos</h2>
+                </a>
+            </div>
+            <div id="subcategoria3" class="vuelos">
+                <a class="subCat" href="subcategoria/Vuelos.html" target="subFrame">
+                    <h2>Vuelos</h2>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://kit.fontawesome.com/bd4bac141d.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="assets/JS/icons.js"></script>
+    <script src="assets/JS/app.js"></script>
+</body>
+
+</html>
