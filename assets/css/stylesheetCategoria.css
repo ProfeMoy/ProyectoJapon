@@ -32,24 +32,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #titleCategoria {

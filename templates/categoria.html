@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categoría</title>
     <link rel="stylesheet" href="../assets/css/stylesheetCategoria.css">
+    <!--Agregar la siguiente linea-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -24,13 +26,13 @@
     <header>
         <nav>
             <div class="containerNav">
-                <div id="logo">
+                <div id="logo" data-aos="fade-right" data-aos-duration="1500">
                     <img src="../assets/img/navbar/logoJapon.png" alt="Logo" class="logo">
                 </div>
                 <div id="emptyDiv">
 
                 </div>
-                <div id="iconos">
+                <div id="iconos" data-aos="fade-left" data-aos-duration="1500">
                     <div class="btnCategoria">
                         <img src="../assets/img/navbar/historia.png" alt="Historia" class="icon" id="iconHistoria">
                     </div>
@@ -78,22 +80,22 @@
             <!--Meter los <h2> dentro de un <a> por cada subcategoría-->
             <!--Poner el href con el documento html de la subcategoría y dejar target="subFrame"-->
 
-            <div id="subcategoria1">
+            <div id="subcategoria1" data-aos="fade-up-right" data-aos-duration="3000">
                 <a class="subCat" href="subcategoria.html" target="subFrame">
                     <h2>Sub 1</h2>
                 </a>
             </div>
-            <div id="subcategoria2">
+            <div id="subcategoria2" data-aos="flip-up" data-aos-duration="3000">
                 <a class="subCat" href="subcategoria.html" target="subFrame">
                     <h2>Sub 2</h2>
                 </a>
             </div>
-            <div id="subcategoria3">
+            <div id="subcategoria3" data-aos="flip-up" data-aos-duration="3000">
                 <a class="subCat" href="subcategoria.html" target="subFrame">
                     <h2>Sub 3</h2>
                 </a>
             </div>
-            <div id="subcategoria4">
+            <div id="subcategoria4" data-aos="fade-up-left" data-aos-duration="3000">
                 <a class="subCat" href="subcategoria.html" target="subFrame">
                     <h2>Sub 4</h2>
                 </a>
@@ -103,6 +105,8 @@
 
     <script src="https://kit.fontawesome.com/bd4bac141d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <!--Agregar la siguiente linea-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../assets/JS/icons.js"></script>
     <script src="../assets/JS/app.js"></script>
 </body>
