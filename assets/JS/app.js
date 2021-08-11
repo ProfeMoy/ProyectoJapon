@@ -6,3 +6,7 @@ $("#closeSubViewer").click(() => {
 $(".subCat").click((() => {
     $("#subViewer").fadeIn();
 }));
+
+$(document).ready(() => {
+    AOS.init();
+});
