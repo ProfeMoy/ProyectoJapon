@@ -230,3 +230,31 @@ body {
 .machizukuri {
     background-image: url(../img/urbanizacion/machi.png);
 }
+
+
+
+/* Turismo */
+
+.hoteles {
+    background-image: url(../img/img_turismo/background_hotel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.rentaAutos {
+    background-image: url(../img/img_turismo/background_autos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vuelos {
+    background-image: url(../img/img_turismo/background_vuelos1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sitiosTuristicos {
+    background-image: url(../img/img_turismo/background_sitios.jpg);
+    background-size: cover;
+    background-position: center;
+}
