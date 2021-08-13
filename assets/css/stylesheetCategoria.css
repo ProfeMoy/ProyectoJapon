@@ -263,21 +263,22 @@ a {
 
 @media (max-width: 640px) {
     .title {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .containerSub {
         flex-direction: column;
-        margin-bottom: 60px;
+        display: flex;
+        width: 100%;
+        height: auto;
     }
-    .containerSub>div {
-        width: 100vw;
-        height: 100vh !important;
+    .containerSub>.background {
+        height: 100vh;
     }
 }
 
 @media(min-width: 300px) and (max-width: 1007px) {
     .title {
-        font-size: 4rem;
+        font-size: 3rem;
     }
     .containerSub {
         flex-direction: column;
