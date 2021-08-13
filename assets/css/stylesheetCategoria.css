@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -23,6 +25,11 @@ nav {
 
 body {
     overflow-x: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -163,6 +170,7 @@ body {
 
 .title {
     font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -235,6 +243,7 @@ body {
     background-image: url(../img/urbanizacion/machi.png);
 }
 
+
 /* Eventos */
 
 .calendario {
@@ -247,4 +256,35 @@ body {
 
 .EvEmblematicos {
     background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
+}
+
+
+/* Media query */
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 3rem;
+    }
+    .containerSub {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .containerSub>div {
+        width: 100vw;
+        height: 100vh !important;
+    }
+}
+
+@media(min-width: 641px) and (max-width: 1007px) {
+    .title {
+        font-size: 4rem;
+    }
+    .containerSub {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+    .containerSub div {
+        width: 100%;
+        height: 50vh;
+    }
 }
