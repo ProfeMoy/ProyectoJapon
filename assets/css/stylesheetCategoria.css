@@ -261,7 +261,6 @@ body {
     float: left;
 }
 
-
 #articleContent h3{
     margin-top: 50px;
     font-size: 25px;
@@ -294,7 +293,17 @@ body {
     padding: 25px;
 }
 
-/*Cards Estilo*/
+.EventosEmblematicos {
+    width: 50%;
+    margin: 20px auto;
+    padding: 25px
+}
+
+.titulo2 {
+    text-align: center;
+}
+
+/*Cards Estilos*/
 
 .containerCard {
     width: 100%;
