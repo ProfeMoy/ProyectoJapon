@@ -53,6 +53,11 @@
 #cardCategory {
     display: flex;
     flex-direction: column;
+    
+}
+
+#cardCategory #goCategory{
+    display: none;
 }
 
 #category1 {
@@ -175,10 +180,21 @@
         align-items: center;
     }
 
+    #headTitle #goCategory{
+        display: none;
+    }
+
     .title{
         font-size: 70px;
     }
 
+    #cardCategory{
+        justify-content: center;
+    }
+
+    #cardCategory #goCategory{
+display: block;
+    }
     .card{
         width: 100px;
         height: 200px;

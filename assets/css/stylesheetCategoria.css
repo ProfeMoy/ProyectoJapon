@@ -61,7 +61,11 @@ body {
     justify-content: center;
     align-items: center;
 }
-
+#menuIcon{
+    display: none;
+    font-size: 60px;
+    align-items: center;
+}
 #logo {
     display: flex;
     justify-content: flex-start;
@@ -139,6 +143,7 @@ body {
 }
 
 .containerNav {
+    width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     height: auto;
@@ -233,4 +238,17 @@ body {
 
 .machizukuri {
     background-image: url(../img/urbanizacion/machi.png);
+}
+
+/*Responsivo*/
+@media screen and (min-width: 300px) and (max-width: 600px){
+    #menuIcon{
+        display: flex;
+    }
+    #logo{
+        justify-content: center;
+    }
+    #iconos{
+        display: none;
+    }
 }
