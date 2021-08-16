@@ -264,7 +264,6 @@ body {
 #articleContent h3{
     margin-top: 50px;
     font-size: 25px;
-    background-color: turquoise;
 }
 
 #articleContent p {
@@ -281,13 +280,116 @@ body {
     list-style: none;
 }
 
-#articleTitleCd {
+
+/*Estilos de los titulos de ciudades (add imagenes)*/
+
+#articleTitleTokyo {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(/assets/img/Imagenes-Eventos/BackgroundCdTokio.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+#articleTitleKioto {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(/assets/img/Imagenes-Eventos/Background-kioto.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+#articleTitleOsaka {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(/assets/img/Imagenes-Eventos/Background-Osaka.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+#articleTitleYokohama {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(/assets/img/Imagenes-Eventos/Background-yokohama.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+#articleTitleKobe {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(/assets/img/Imagenes-Eventos/Background-kobe.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+#articleTitleFukuoka {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-image: url(/assets/img/Imagenes-Eventos/Background-fukuoka.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    color: white;
+}
+
+/*Estilos EventosEmblematicos*/
+
+#articleTitleCd{
     margin-top: 15px;
     text-align: center;
     font-size: 20px;
 }
 
-.EvCiudades {
+.EvCiudades #articleContent {
     width: 50%;
     margin: 20px auto;
     padding: 25px;
@@ -302,6 +404,7 @@ body {
 .titulo2 {
     text-align: center;
 }
+
 
 /*Cards Estilos*/
 
