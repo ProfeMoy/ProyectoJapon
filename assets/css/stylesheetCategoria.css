@@ -247,6 +247,30 @@ a {
     background-image: url(../img/urbanizacion/machi.png);
 }
 
+
+.desayunos{
+    background-image: url(../img/img_gastronomia/desayunos/subCategoryBackground.jpeg);
+}
+
+.guisos-sopas{
+    background-image: url(../img/img_gastronomia/guisos\ y\ sopas/subCategoryBackground.jpg);
+}
+
+.platillo-tipico{
+    background-image: url(../img/img_gastronomia/tipico/subCategoryBackground.jpg);
+}
+
+.postre-bebida{
+    background-image: url(../img/img_gastronomia/postre_bebidas/subCategoryBackground.jpg);
+}
+
+.restaurantes{
+    background-image: url(../img/img_gastronomia/restaurante/subCategoryBackground.jpg);
+}
+
+.exoticos{
+    background-image: url(../img/img_gastronomia/exoticos/subCategoryBackground.jpg);
+}
 /* --- Destinos Turisticos --- */
 .aldeas {
     background-image: url(../img/Destinos/AL\ -\ SHIRAKAWA\ GO\ 04.jpg);
