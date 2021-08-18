@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -25,6 +27,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 
 /* Id's */
 
@@ -32,24 +39,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #titleCategoria {
@@ -159,6 +170,7 @@ body {
 
 .title {
     font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -198,7 +210,7 @@ body {
 }
 
 .eventos {
-    background-image: url(../img/backgroundEventos.jpg);
+    background-image: url(../img/Imagenes-Eventos/Background-eventos.jpg);
 }
 
 .urbanizacion {
@@ -211,6 +223,10 @@ body {
 
 .viajes {
     background-image: url(../img/backgroundViajes.jpg);
+}
+
+.destinos-turisticos{
+    background-image: url(../img/Destinos/S\ -\ ISLA\ MIYAJIMA\ 04.jpg);
 }
 
 
@@ -230,6 +246,7 @@ body {
 .machizukuri {
     background-image: url(../img/urbanizacion/machi.png);
 }
+
 
 .desayunos{
     background-image: url(../img/img_gastronomia/desayunos/subCategoryBackground.jpeg);
@@ -253,4 +270,60 @@ body {
 
 .exoticos{
     background-image: url(../img/img_gastronomia/exoticos/subCategoryBackground.jpg);
+}
+/* --- Destinos Turisticos --- */
+.aldeas {
+    background-image: url(../img/Destinos/AL\ -\ SHIRAKAWA\ GO\ 04.jpg);
+}
+
+.entorno-natural {
+    background-image: url(../img/Destinos/EN\ -\ MONTE\ FUJI\ 01.jpg);
+}
+
+.santuarios {
+    background-image: url(../img/Destinos/S\ -\ FUSHIMI\ INARI\ 01.jpg);
+}
+
+.ciudades {
+    background-image: url(../img/Destinos/C\ -\ TOKIO\ 02.jpg);
+}
+/* Turismo */
+
+.hoteles {
+    background-image: url(../img/img_turismo/background_hotel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.rentaAutos {
+    background-image: url(../img/img_turismo/background_autos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vuelos {
+    background-image: url(../img/img_turismo/background_vuelos1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sitiosTuristicos {
+    background-image: url(../img/img_turismo/background_sitios.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/* Eventos */
+
+.calendario {
+    background-image: url(../img/Imagenes-Eventos/Background-calendario.jpg);
+    background-size: cover;
+}
+
+.ciudadesEventos {
+    background-image: url(../img/Imagenes-Eventos/Background-ciudades.jpg);
+    background-size: cover;
+}
+
+.EvEmblematicos {
+    background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
 }
