@@ -5,6 +5,10 @@
 var previousTitle = $("#h1Categoria").text();
 var fondo = background(previousTitle);
 
+$("#logo").click(() => {
+    location.href = "../../index.html";
+});
+
 
 /* Categorías */
 
