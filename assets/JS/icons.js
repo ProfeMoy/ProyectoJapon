@@ -57,7 +57,7 @@ $("#iconTurismo").mouseout(() => {
     returnToOriginal();
 });
 $("#iconTurismo").click(() => {
-    window.location.href = "../turismo/turismo.html";
+    window.location.href = "../Destinos turisticos/destinos.html";
 });
 
 /* --- Gastronomía --- */
@@ -69,7 +69,7 @@ $("#iconGastronomia").mouseout(() => {
     returnToOriginal();
 });
 $("#iconGastronomia").click(() => {
-    window.location.href = "../gastronomia/gastronomia.html";
+    window.location.href = "../gastronomia/subgastronomia.html";
 });
 
 /* --- Festividades --- */
@@ -129,7 +129,7 @@ $("#iconViajes").mouseout(() => {
     returnToOriginal();
 });
 $("#iconViajes").click(() => {
-    window.location.href = "../viajes/viajes.html";
+    window.location.href = "../turismo/turismo.html";
 });
 
 

@@ -85,7 +85,7 @@ $("#cardTurismo").mouseover(() => {
     $("#wrapper").addClass("background-turismo");
     $(".title").text("Turismo");
     $("#cardTurismo").click(() => {
-        location.href = "categoria/turismo/turismo.html";
+        location.href = "categoria/Destinos Turisticos/destinos.html";
     });
 });
 $("#cardTurismo").mouseout(() => {
@@ -98,7 +98,7 @@ $("#cardGastronomia").mouseover(() => {
     $("#wrapper").addClass("background-gastronomia");
     $(".title").text("Gastronomía");
     $("#cardGastronomia").click(() => {
-        location.href = "categoria/gastronomia/gastronomia.html";
+        location.href = "categoria/gastronomia/subgastronomia.html";
     });
 });
 $("#cardGastronomia").mouseout(() => {
@@ -163,7 +163,7 @@ $("#cardViajes").mouseover(() => {
     $("#wrapper").addClass("background-viajes");
     $(".title").text("Viajes");
     $("#cardViajes").click(() => {
-        location.href = "categoria/viajes/viajes.html";
+        location.href = "categoria/turismo/turismo.html";
     });
 });
 $("#cardViajes").mouseout(() => {
@@ -175,7 +175,5 @@ $("#cardViajes").mouseout(() => {
 function goBack() {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-inicio");
-});
-
     $(".title").text("Japón");
-}
+};
