@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categoría</title>
     <link rel="stylesheet" href="../../assets/css/stylesheetCategoria.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,13 +20,13 @@
     <header>
         <nav>
             <div class="containerNav">
-                <div id="logo">
+                <div id="logo" data-aos="fade-right" data-aos-duration="1500">
                     <img src="../../assets/img/navbar/logoJapon.png" alt="Logo" class="logo">
                 </div>
                 <div id="emptyDiv">
 
                 </div>
-                <div id="iconos">
+                <div id="iconos" data-aos="fade-left" data-aos-duration="1500">
                     <div class="btnCategoria">
                         <img src="../../assets/img/navbar/historia.png" alt="Historia" class="icon" id="iconHistoria">
                     </div>
@@ -68,17 +69,17 @@
             </div>
         </div>
         <div class="containerSub" id="sub">
-            <div id="subcategoria1" class="background ciudades-japonesas">
+            <div id="subcategoria1" class="background ciudades-japonesas" data-aos="fade-right" data-aos-duration="3000">
                 <a class="subCat" href="subcategoria/ciudadesJaponesas.html" target="subFrame">
                     <h2>Ciudades japonesas</h2>
                 </a>
             </div>
-            <div id="subcategoria2" class="background distribucion-urbana">
+            <div id="subcategoria2" class="background distribucion-urbana" data-aos="flip-up" data-aos-duration="3000">
                 <a class="subCat" href="subcategoria/distribucionUrbana.html" target="subFrame">
                     <h2>Distribución Urbana</h2>
                 </a>
             </div>
-            <div id="subcategoria3" class="background machizukuri">
+            <div id="subcategoria3" class="background machizukuri" data-aos="fade-left" data-aos-duration="3000">
                 <a class="subCat" href="subcategoria/machizukuri.html" target="subFrame">
                     <h2>Machizukuri</h2>
                 </a>
@@ -89,6 +90,7 @@
 
     <script src="https://kit.fontawesome.com/bd4bac141d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../../assets/JS/icons.js"></script>
     <script src="../../assets/JS/app.js"></script>
 </body>
