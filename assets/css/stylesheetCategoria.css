@@ -248,57 +248,15 @@ a {
 
 .calendario {
     background-image: url(../img/Imagenes-Eventos/Background-calendario.jpg);
+    background-size: cover;
 }
 
 .ciudadesEventos {
     background-image: url(../img/Imagenes-Eventos/Background-ciudades.jpg);
+    background-size: cover;
 }
 
 .EvEmblematicos {
     background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
-}
 
-/* Festividades */
-
-.festi-nac {
-    background-image: url(../img/img-Festividades/festi-nac.jpg);
-}
-
-.festi-reg {
-    background-image: url(../img/img-Festividades/festi-reg.jpg);
-}
-
-
-
-
-/* Media query */
-
-@media (max-width: 640px) {
-    .title {
-        font-size: 2rem;
-    }
-    .containerSub {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        height: auto;
-    }
-    .containerSub>.background {
-        height: 100vh;
-    }
-}
-
-@media(min-width: 300px) and (max-width: 1007px) {
-    .title {
-        font-size: 3rem;
-    }
-    .containerSub {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        height: auto;
-    }
-    .containerSub>.background {
-        height: 100vh;
-    }
 }
