@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -23,6 +25,11 @@ nav {
 
 body {
     overflow-x: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 
@@ -168,6 +175,7 @@ body {
 
 .title {
     font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -207,7 +215,7 @@ body {
 }
 
 .eventos {
-    background-image: url(../img/backgroundEventos.jpg);
+    background-image: url(../img/Imagenes-Eventos/Background-eventos.jpg);
 }
 
 .urbanizacion {
@@ -248,7 +256,62 @@ body {
     #logo{
         justify-content: center;
     }
-    #iconos{
+    #emptyDiv{
         display: none;
+    }
+    #iconos{
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: span 2;
+    }
+    .containerNav{
+        grid-template-columns: 20% 50%;
+        grid-template-rows: auto auto;
+    }
+}
+/* Eventos */
+
+.calendario {
+    background-image: url(../img/Imagenes-Eventos/Background-calendario.jpg);
+}
+
+.ciudadesEventos {
+    background-image: url(../img/Imagenes-Eventos/Background-ciudades.jpg);
+}
+
+.EvEmblematicos {
+    background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
+}
+
+
+/* Media query */
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 2rem;
+    }
+    .containerSub {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .containerSub>.background {
+        height: 100vh;
+    }
+}
+
+@media(min-width: 300px) and (max-width: 1007px) {
+    .title {
+        font-size: 3rem;
+    }
+    .containerSub {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    .containerSub>.background {
+        height: 100vh;
     }
 }
