@@ -225,6 +225,10 @@ a {
     background-image: url(../img/backgroundViajes.jpg);
 }
 
+.destinos-turisticos{
+    background-image: url(../img/Destinos/S\ -\ ISLA\ MIYAJIMA\ 04.jpg);
+}
+
 
 /* Subcategorías */
 
@@ -244,61 +248,82 @@ a {
 }
 
 
+.desayunos{
+    background-image: url(../img/img_gastronomia/desayunos/subCategoryBackground.jpeg);
+}
+
+.guisos-sopas{
+    background-image: url(../img/img_gastronomia/guisos\ y\ sopas/subCategoryBackground.jpg);
+}
+
+.platillo-tipico{
+    background-image: url(../img/img_gastronomia/tipico/subCategoryBackground.jpg);
+}
+
+.postre-bebida{
+    background-image: url(../img/img_gastronomia/postre_bebidas/subCategoryBackground.jpg);
+}
+
+.restaurantes{
+    background-image: url(../img/img_gastronomia/restaurante/subCategoryBackground.jpg);
+}
+
+.exoticos{
+    background-image: url(../img/img_gastronomia/exoticos/subCategoryBackground.jpg);
+}
+/* --- Destinos Turisticos --- */
+.aldeas {
+    background-image: url(../img/Destinos/AL\ -\ SHIRAKAWA\ GO\ 04.jpg);
+}
+
+.entorno-natural {
+    background-image: url(../img/Destinos/EN\ -\ MONTE\ FUJI\ 01.jpg);
+}
+
+.santuarios {
+    background-image: url(../img/Destinos/S\ -\ FUSHIMI\ INARI\ 01.jpg);
+}
+
+.ciudades {
+    background-image: url(../img/Destinos/C\ -\ TOKIO\ 02.jpg);
+}
+/* Turismo */
+
+.hoteles {
+    background-image: url(../img/img_turismo/background_hotel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.rentaAutos {
+    background-image: url(../img/img_turismo/background_autos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vuelos {
+    background-image: url(../img/img_turismo/background_vuelos1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sitiosTuristicos {
+    background-image: url(../img/img_turismo/background_sitios.jpg);
+    background-size: cover;
+    background-position: center;
+}
 /* Eventos */
 
 .calendario {
     background-image: url(../img/Imagenes-Eventos/Background-calendario.jpg);
+    background-size: cover;
 }
 
 .ciudadesEventos {
     background-image: url(../img/Imagenes-Eventos/Background-ciudades.jpg);
+    background-size: cover;
 }
 
 .EvEmblematicos {
     background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
-}
-
-/* Festividades */
-
-.festi-nac {
-    background-image: url(../img/img-Festividades/festi-nac.jpg);
-}
-
-.festi-reg {
-    background-image: url(../img/img-Festividades/festi-reg.jpg);
-}
-
-
-
-
-/* Media query */
-
-@media (max-width: 640px) {
-    .title {
-        font-size: 2rem;
-    }
-    .containerSub {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        height: auto;
-    }
-    .containerSub>.background {
-        height: 100vh;
-    }
-}
-
-@media(min-width: 300px) and (max-width: 1007px) {
-    .title {
-        font-size: 3rem;
-    }
-    .containerSub {
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        height: auto;
-    }
-    .containerSub>.background {
-        height: 100vh;
-    }
 }
