@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -25,6 +27,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 
 /* Id's */
 
@@ -32,24 +39,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #titleCategoria {
@@ -159,6 +170,7 @@ body {
 
 .title {
     font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -198,7 +210,7 @@ body {
 }
 
 .eventos {
-    background-image: url(../img/backgroundEventos.jpg);
+    background-image: url(../img/Imagenes-Eventos/Background-eventos.jpg);
 }
 
 .urbanizacion {
@@ -231,8 +243,6 @@ body {
     background-image: url(../img/urbanizacion/machi.png);
 }
 
-
-
 /* Turismo */
 
 .hoteles {
@@ -257,4 +267,20 @@ body {
     background-image: url(../img/img_turismo/background_sitios.jpg);
     background-size: cover;
     background-position: center;
+}
+/* Eventos */
+
+.calendario {
+    background-image: url(../img/Imagenes-Eventos/Background-calendario.jpg);
+    background-size: cover;
+}
+
+.ciudadesEventos {
+    background-image: url(../img/Imagenes-Eventos/Background-ciudades.jpg);
+    background-size: cover;
+}
+
+.EvEmblematicos {
+    background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
+
 }
