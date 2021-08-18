@@ -225,6 +225,10 @@ a {
     background-image: url(../img/backgroundViajes.jpg);
 }
 
+.destinos-turisticos{
+    background-image: url(../img/Destinos/S\ -\ ISLA\ MIYAJIMA\ 04.jpg);
+}
+
 
 /* Subcategorías */
 
@@ -243,6 +247,22 @@ a {
     background-image: url(../img/urbanizacion/machi.png);
 }
 
+/* --- Destinos Turisticos --- */
+.aldeas {
+    background-image: url(../img/Destinos/AL\ -\ SHIRAKAWA\ GO\ 04.jpg);
+}
+
+.entorno-natural {
+    background-image: url(../img/Destinos/EN\ -\ MONTE\ FUJI\ 01.jpg);
+}
+
+.santuarios {
+    background-image: url(../img/Destinos/S\ -\ FUSHIMI\ INARI\ 01.jpg);
+}
+
+.ciudades {
+    background-image: url(../img/Destinos/C\ -\ TOKIO\ 02.jpg);
+}
 /* Turismo */
 
 .hoteles {
@@ -282,5 +302,4 @@ a {
 
 .EvEmblematicos {
     background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
-
 }
