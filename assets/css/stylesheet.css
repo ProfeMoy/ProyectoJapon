@@ -161,3 +161,26 @@
         opacity: 1;
     }
 }
+
+/* Responsivo */
+@media screen and (min-width: 300px) and (max-width: 600px){
+    #indexContainer{
+        flex-direction: column;
+        padding: 0px;
+        justify-content: flex-start;
+    }
+
+    #headTitle{
+        width: 100%;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 70px;
+    }
+
+    .card{
+        width: 100px;
+        height: 200px;
+    }
+}
