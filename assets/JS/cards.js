@@ -83,7 +83,7 @@ $("#cardCultura").mouseout(() => {
 $("#cardTurismo").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-turismo");
-    $(".title").text("Turismo");
+    $(".title").text("Destinos turisticos");
     $("#cardTurismo").click(() => {
         location.href = "categoria/Destinos Turisticos/destinos.html";
     });
@@ -161,7 +161,7 @@ $("#cardAportes").mouseout(() => {
 $("#cardViajes").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-viajes");
-    $(".title").text("Viajes");
+    $(".title").text("Turismo");
     $("#cardViajes").click(() => {
         location.href = "categoria/turismo/turismo.html";
     });
