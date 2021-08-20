@@ -24,6 +24,17 @@ $("#iconHistoria").click(() => {
     window.location.href = "../historia/historia.html";
 });
 
+/* --- Destinos Turisticos --- */
+
+$("#iconDestinos").mouseover(() => {
+    changeToCategory("Destinos Turisticos", "destinos-turisticos");
+});
+$("#iconDestinos").mouseout(() => {
+    returnToOriginal();
+});
+$("#iconDestinos").click(() => {
+    window.location.href = "../Destinos Turisticos/Destinos.html";
+});
 
 /* --- Cultura --- */
 
@@ -40,13 +51,13 @@ $("#iconCultura").click(() => {
 /* --- Turismo --- */
 
 $("#iconTurismo").mouseover(() => {
-    changeToCategory("Turismo", "turismo");
+    changeToCategory("Destinos turisticos", "turismo");
 });
 $("#iconTurismo").mouseout(() => {
     returnToOriginal();
 });
 $("#iconTurismo").click(() => {
-    window.location.href = "../turismo/turismo.html";
+    window.location.href = "../Destinos turisticos/destinos.html";
 });
 
 /* --- Gastronomía --- */
@@ -58,7 +69,7 @@ $("#iconGastronomia").mouseout(() => {
     returnToOriginal();
 });
 $("#iconGastronomia").click(() => {
-    window.location.href = "../gastronomia/gastronomia.html";
+    window.location.href = "../gastronomia/subgastronomia.html";
 });
 
 /* --- Festividades --- */
@@ -112,13 +123,13 @@ $("#iconAportes").click(() => {
 /* --- Viajes --- */
 
 $("#iconViajes").mouseover(() => {
-    changeToCategory("Viajes", "viajes");
+    changeToCategory("Turismo", "viajes");
 });
 $("#iconViajes").mouseout(() => {
     returnToOriginal();
 });
 $("#iconViajes").click(() => {
-    window.location.href = "../viajes/viajes.html";
+    window.location.href = "../turismo/turismo.html";
 });
 
 
@@ -154,9 +165,9 @@ function background(title) {
             {
                 return "cultura";
             }
-        case "Turismo":
+        case "Destinos turisticos":
             {
-                return "turismo";
+                return "destinos-turisticos";
             }
         case "Gastronomía":
             {
@@ -181,6 +192,10 @@ function background(title) {
         case "Viajes":
             {
                 return "viajes";
+            }
+        case "Destinos Turisticos":
+            {
+                return "destinos-turisticos";
             }
 
     }
