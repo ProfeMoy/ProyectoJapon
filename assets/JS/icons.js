@@ -51,7 +51,7 @@ $("#iconCultura").click(() => {
 /* --- Turismo --- */
 
 $("#iconTurismo").mouseover(() => {
-    changeToCategory("Turismo", "turismo");
+    changeToCategory("Destinos turisticos", "turismo");
 });
 $("#iconTurismo").mouseout(() => {
     returnToOriginal();
@@ -123,7 +123,7 @@ $("#iconAportes").click(() => {
 /* --- Viajes --- */
 
 $("#iconViajes").mouseover(() => {
-    changeToCategory("Viajes", "viajes");
+    changeToCategory("Turismo", "viajes");
 });
 $("#iconViajes").mouseout(() => {
     returnToOriginal();
@@ -165,9 +165,9 @@ function background(title) {
             {
                 return "cultura";
             }
-        case "Turismo":
+        case "Destinos turisticos":
             {
-                return "turismo";
+                return "destinos-turisticos";
             }
         case "Gastronomía":
             {

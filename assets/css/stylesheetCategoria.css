@@ -198,7 +198,7 @@ a {
 }
 
 .turismo {
-    background-image: url(../img/backgroundTurismo.jpg);
+    background-image: url(../img/Destinos/S\ -\ ISLA\ MIYAJIMA\ 04.jpg);
 }
 
 .gastronomia {
@@ -225,7 +225,7 @@ a {
     background-image: url(../img/backgroundViajes.jpg);
 }
 
-.destinos-turisticos{
+.destinos-turisticos {
     background-image: url(../img/Destinos/S\ -\ ISLA\ MIYAJIMA\ 04.jpg);
 }
 
@@ -247,31 +247,33 @@ a {
     background-image: url(../img/urbanizacion/machi.png);
 }
 
-
-.desayunos{
+.desayunos {
     background-image: url(../img/img_gastronomia/desayunos/subCategoryBackground.jpeg);
 }
 
-.guisos-sopas{
+.guisos-sopas {
     background-image: url(../img/img_gastronomia/guisos\ y\ sopas/subCategoryBackground.jpg);
 }
 
-.platillo-tipico{
+.platillo-tipico {
     background-image: url(../img/img_gastronomia/tipico/subCategoryBackground.jpg);
 }
 
-.postre-bebida{
+.postre-bebida {
     background-image: url(../img/img_gastronomia/postre_bebidas/subCategoryBackground.jpg);
 }
 
-.restaurantes{
+.restaurantes {
     background-image: url(../img/img_gastronomia/restaurante/subCategoryBackground.jpg);
 }
 
-.exoticos{
+.exoticos {
     background-image: url(../img/img_gastronomia/exoticos/subCategoryBackground.jpg);
 }
+
+
 /* --- Destinos Turisticos --- */
+
 .aldeas {
     background-image: url(../img/Destinos/AL\ -\ SHIRAKAWA\ GO\ 04.jpg);
 }
@@ -287,6 +289,8 @@ a {
 .ciudades {
     background-image: url(../img/Destinos/C\ -\ TOKIO\ 02.jpg);
 }
+
+
 /* Turismo */
 
 .hoteles {
@@ -312,6 +316,8 @@ a {
     background-size: cover;
     background-position: center;
 }
+
+
 /* Eventos */
 
 .calendario {
