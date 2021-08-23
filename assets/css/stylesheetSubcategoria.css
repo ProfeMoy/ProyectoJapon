@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+/* Etiquetas */
+
+img {
+    width: 100%;
+}
+
+
+/* Clases */
+
+.subcategory h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* Id's */
+
+#articleTitle {
+    font-size: 1.5rem;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#articleContent {
+    text-align: justify;
+}

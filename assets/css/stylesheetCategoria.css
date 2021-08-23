@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 
@@ -25,6 +27,11 @@ body {
     overflow-x: hidden;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 
 /* Id's */
 
@@ -32,24 +39,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #subcategoria4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: gray;
 }
 
 #titleCategoria {
@@ -159,6 +170,7 @@ body {
 
 .title {
     font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -186,7 +198,7 @@ body {
 }
 
 .turismo {
-    background-image: url(../img/backgroundTurismo.jpg);
+    background-image: url(../img/Destinos/S\ -\ ISLA\ MIYAJIMA\ 04.jpg);
 }
 
 .gastronomia {
@@ -198,7 +210,7 @@ body {
 }
 
 .eventos {
-    background-image: url(../img/backgroundEventos.jpg);
+    background-image: url(../img/Imagenes-Eventos/Background-eventos.jpg);
 }
 
 .urbanizacion {
@@ -210,7 +222,11 @@ body {
 }
 
 .viajes {
-    background-image: url(../img/backgroundViajes.jpg);
+    background-image: url(../img/img_turismo/background_turismo.jpg);
+}
+
+.destinos-turisticos {
+    background-image: url(../img/Destinos/S\ -\ ISLA\ MIYAJIMA\ 04.jpg);
 }
 
 
@@ -231,6 +247,48 @@ body {
     background-image: url(../img/urbanizacion/machi.png);
 }
 
+.desayunos {
+    background-image: url(../img/img_gastronomia/desayunos/subCategoryBackground.jpeg);
+}
+
+.guisos-sopas {
+    background-image: url(../img/img_gastronomia/guisos\ y\ sopas/subCategoryBackground.jpg);
+}
+
+.platillo-tipico {
+    background-image: url(../img/img_gastronomia/tipico/subCategoryBackground.jpg);
+}
+
+.postre-bebida {
+    background-image: url(../img/img_gastronomia/postre_bebidas/subCategoryBackground.jpg);
+}
+
+.restaurantes {
+    background-image: url(../img/img_gastronomia/restaurante/subCategoryBackground.jpg);
+}
+
+.exoticos {
+    background-image: url(../img/img_gastronomia/exoticos/subCategoryBackground.jpg);
+}
+
+
+/* --- Destinos Turisticos --- */
+
+.aldeas {
+    background-image: url(../img/Destinos/AL\ -\ SHIRAKAWA\ GO\ 04.jpg);
+}
+
+.entorno-natural {
+    background-image: url(../img/Destinos/EN\ -\ MONTE\ FUJI\ 01.jpg);
+}
+
+.santuarios {
+    background-image: url(../img/Destinos/S\ -\ FUSHIMI\ INARI\ 01.jpg);
+}
+
+.ciudades {
+    background-image: url(../img/Destinos/C\ -\ TOKIO\ 02.jpg);
+}
 
 
 /* Turismo */
@@ -253,8 +311,36 @@ body {
     background-position: center;
 }
 
-.sitiosTuristicos {
+.destinosTuristicos {
     background-image: url(../img/img_turismo/background_sitios.jpg);
     background-size: cover;
     background-position: center;
+}
+
+
+/* Eventos */
+
+.calendario {
+    background-image: url(../img/Imagenes-Eventos/Background-calendario.jpg);
+    background-size: cover;
+}
+
+.ciudadesEventos {
+    background-image: url(../img/Imagenes-Eventos/Background-ciudades.jpg);
+    background-size: cover;
+}
+
+.EvEmblematicos {
+    background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
+}
+
+
+/* Festividades */
+
+.festi-reg {
+    background-image: url(../img/img-Festividades/festi-reg.jpg);
+}
+
+.festi-nac {
+    background-image: url(../img/img-Festividades/festi-nac.jpg);
 }

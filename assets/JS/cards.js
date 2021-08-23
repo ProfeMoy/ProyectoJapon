@@ -10,10 +10,12 @@ $("#btn1").click(() => {
     $("#btn2").removeClass("selected");
     $("#btn3").removeClass("selected");
 
+
     // Cambiamos las cards
     $("#category1").fadeIn();
     $("#category2").hide();
     $("#category3").hide();
+
 });
 
 // Botón 2
@@ -22,10 +24,12 @@ $("#btn2").click(() => {
     $("#btn2").addClass("selected");
     $("#btn3").removeClass("selected");
 
+
     // Cambiamos las cards
     $("#category1").hide();
     $("#category2").fadeIn();
     $("#category3").hide();
+
 });
 
 // Botón 3
@@ -38,6 +42,7 @@ $("#btn3").click(() => {
     $("#category1").hide();
     $("#category2").hide();
     $("#category3").fadeIn();
+
 });
 
 
@@ -45,92 +50,130 @@ $("#btn3").click(() => {
 
 // Por categoría iremos cambiando la imagen en el background en la clase de wrapper
 
+var cardSelected = false;
+
 // Historia
 $("#cardHistoria").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-historia");
+    $(".title").text("Historia");
+    $("#cardHistoria").click(() => {
+        location.href = "categoria/historia/historia.html";
+    });
 });
 $("#cardHistoria").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
+
 
 // Cultura
 $("#cardCultura").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-cultura");
+    $(".title").text("Cultura");
+    $("#cardCultura").click(() => {
+        location.href = "categoria/cultura/cultura.html";
+    });
 });
 $("#cardCultura").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
 
 // Turismo
 $("#cardTurismo").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-turismo");
+    $(".title").text("Destinos turisticos");
+    $("#cardTurismo").click(() => {
+        location.href = "categoria/Destinos Turisticos/destinos.html";
+    });
 });
 $("#cardTurismo").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
 
 // Gastronomía
 $("#cardGastronomia").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-gastronomia");
+    $(".title").text("Gastronomía");
+    $("#cardGastronomia").click(() => {
+        location.href = "categoria/gastronomia/subgastronomia.html";
+    });
 });
 $("#cardGastronomia").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
 
 // Festividades
 $("#cardFestividades").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-festividades");
+    $(".title").text("Festividades");
+    $("#cardFestividades").click(() => {
+        location.href = "categoria/festividades/festividades.html";
+    });
 });
 $("#cardFestividades").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
 
 // Eventos
 $("#cardEventos").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-eventos");
+    $(".title").text("Eventos");
+    $("#cardEventos").click(() => {
+        location.href = "categoria/eventos/eventos.html";
+    });
 });
 $("#cardEventos").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
 
 // Urbanización
 $("#cardUrbanizacion").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-urbanizacion");
+    $(".title").text("Urbanización");
+    $("#cardUrbanizacion").click(() => {
+        location.href = "categoria/urbanizacion/urbanizacion.html";
+    });
 });
 $("#cardUrbanizacion").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
 
 // Aportes
 $("#cardAportes").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-aportes");
+    $(".title").text("Aportes");
+    $("#cardAportes").click(() => {
+        location.href = "categoria/aportes/aportes.html";
+    });
 });
 $("#cardAportes").mouseout(() => {
-    $("#wrapper").removeClass();
-    $("#wrapper").addClass("background-inicio");
+    goBack();
 });
 
 // Viajes
 $("#cardViajes").mouseover(() => {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-viajes");
+    $(".title").text("Turismo");
+    $("#cardViajes").click(() => {
+        location.href = "categoria/turismo/turismo.html";
+    });
 });
 $("#cardViajes").mouseout(() => {
+    goBack();
+});
+
+// Funciones
+
+function goBack() {
     $("#wrapper").removeClass();
     $("#wrapper").addClass("background-inicio");
-});
+    $(".title").text("Japón");
+};
