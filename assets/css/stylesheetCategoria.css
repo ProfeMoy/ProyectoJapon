@@ -210,7 +210,7 @@ a {
 }
 
 .eventos {
-    background-image: url(../img/Imagenes-Eventos/Background-eventos.jpg);
+    background-image: url(../img/Imagenes-Eventos/Background-Eventos.jpg);
 }
 
 .urbanizacion {
@@ -332,6 +332,7 @@ a {
 
 .EvEmblematicos {
     background-image: url(../img/Imagenes-Eventos/Background-EventosEm.jpg);
+    background-size: cover;
 }
 
 
